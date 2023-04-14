@@ -342,7 +342,7 @@ img {
 }
 
 .our-team-social-list-icon {
-  fill: #f4f4fd;
+  fill: var(--cloud-color);
 }
 /* ========== SECTION FIVE ==========*/
 
@@ -378,6 +378,7 @@ width: calc((100% - 120px) / 6);
   align-items: center;
   width: 168px;
   height: 88px;
+  color: #afb1b8;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
@@ -386,10 +387,14 @@ width: calc((100% - 120px) / 6);
   fill: var(--light-slate);
 }
 
-.customers-link:hover  
+.customers-link:hover,  
 .customers-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.customers-icon {
+  fill: currentColor;
 }
 
 /* ========== FOOTER ========== */
